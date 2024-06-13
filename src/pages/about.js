@@ -2,6 +2,9 @@ import React from "react";
 import 'animate.css';
 import ReactVisibilitySensor from "react-visibility-sensor";
 import {Fade} from "react-awesome-reveal"
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import {ReactComponent as Mysvg}  from "../assets/services.svg"
+import { FaBuildingShield } from "react-icons/fa6";
 export default function About(){
     return(
         <div>
@@ -23,6 +26,50 @@ export default function About(){
 
                     </div>
                 </section>
+            </div>
+            <div className="hidden md:block">
+                <ReactVisibilitySensor>
+                    <Fade direction="up">
+                        <section className="flex items-center justify-center">
+                            <div className="mx-20">
+                                <LiaLaptopCodeSolid style={{fontSize:'10rem'}}/>
+                                <h2 className="text-2xl">Web Development</h2>
+                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                            </div>
+                            <div >
+                                <Mysvg style={{width:'400px',height:'400px'}}/>
+                            </div>
+                            <div className="mx-20">
+                                <FaBuildingShield style={{fontSize:'8rem'}}/>
+                                <h2 className="text-2xl">Server Security</h2>
+                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                            </div>
+                        </section>
+
+                    </Fade>
+                </ReactVisibilitySensor>
+            </div>
+            <div className="lg:hidden">
+                <ReactVisibilitySensor>
+                    <Fade direction="up">
+                        <section className="flex flex-col items-center justify-center">
+                            <div className="mx-20">
+                                <LiaLaptopCodeSolid style={{fontSize:'10rem'}}/>
+                                <h2 className="text-2xl">Web Development</h2>
+                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                            </div>
+                            <div >
+                                <Mysvg style={{width:'400px',height:'400px'}}/>
+                            </div>
+                            <div className="mx-20">
+                                <FaBuildingShield style={{fontSize:'8rem'}}/>
+                                <h2 className="text-2xl">Server Security</h2>
+                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                            </div>
+                        </section>
+
+                    </Fade>
+                </ReactVisibilitySensor>
             </div>
         </div>
     )
