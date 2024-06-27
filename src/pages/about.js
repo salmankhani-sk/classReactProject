@@ -4,7 +4,9 @@ import ReactVisibilitySensor from "react-visibility-sensor";
 import {Fade} from "react-awesome-reveal"
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import {ReactComponent as Mysvg}  from "../assets/services.svg"
+import Wimage from '../assets/work.jpg'
 import { FaBuildingShield } from "react-icons/fa6";
+import CountUp from "react-countup/build/CountUp";
 export default function About(){
     return(
         <div>
@@ -71,6 +73,31 @@ export default function About(){
                     </Fade>
                 </ReactVisibilitySensor>
             </div>
+            <div className="flex justify-center items-center">
+                            <div style={{background:`url(${Wimage})`}} className=" bg-no-repeat bg-cover bg-center h-[500px] w-[500px] ">
+                                
+                            </div>
+                            <div className="bg-cover bg-center h-[500px] w-[500px] bg-blue-700">
+                                <div className="mt-16 mx-14">
+                                    
+                                    <h1 className="font-bold text-4xl text-white">Consult us here in <br/> <span className="text-yellow-500">IT Solution</span></h1>
+                                    <p className="text-white mt-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                    
+                                </div>
+                                <div className="flex flex-wrap">
+                                    <div className="flex-1">
+                                        <h2 className="text-white font-bold text-3xl mx-14">
+                                        <ReactVisibilitySensor>
+                                            {({isVisible})=>(
+                                                <CountUp end={isVisible ? 750 : 0} />
+                                            )}
+                                        </ReactVisibilitySensor>
+                                        </h2>
+                                        <h6 className="text-white mx-14"> Project Complete</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
         </div>
     )
 }

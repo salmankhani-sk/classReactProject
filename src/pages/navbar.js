@@ -43,6 +43,7 @@ function Navbar() {
                 <Link to="/signup" className="text-black active:bg-blue-100 active:rounded-lg focus:text-blue-500 transition-all duration-500 ease-in-out transform hover:text-2xl hover:bg-slate-200 rounded-2xl hover:font-bold">Sign Up</Link>
                 <Link to="/contactus" className="text-black active:bg-blue-100 active:rounded-lg focus:text-blue-500 transition-all duration-500 ease-in-out transform hover:text-2xl hover:bg-slate-200 rounded-2xl hover:font-bold">Contact Us</Link>
             </div>
+            <div></div>
         </nav>
     );
 }

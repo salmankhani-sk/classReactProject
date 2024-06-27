@@ -1,6 +1,6 @@
 import React from "react";
 import 'animate.css'
-import imag from '../assets/work-4.jpg'
+import imag from '../assets/work-4.jpg';
 import { MdElectricBolt } from "react-icons/md";
 import { TbBulbFilled } from "react-icons/tb";
 import { FaRedhat } from "react-icons/fa6";
@@ -71,7 +71,9 @@ function Home(){
                                     </div>
                                 </div>
                             </div>
+                            
                         </section>
+                       
         </div>
     )
 }
