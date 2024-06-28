@@ -4,6 +4,7 @@ import imag from '../assets/work-4.jpg';
 import { MdElectricBolt } from "react-icons/md";
 import { TbBulbFilled } from "react-icons/tb";
 import { FaRedhat } from "react-icons/fa6";
+import About from "./about"
 function Home(){
     return(
         <div>
@@ -73,6 +74,8 @@ function Home(){
                             </div>
                             
                         </section>
+                        
+                        <About/>
                        
         </div>
     )
