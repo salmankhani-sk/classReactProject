@@ -16,7 +16,7 @@ export default function Services(){
                     </Fade>
                 </ReactVisibilitySensor>
             </div>
-            <div>
+            <div className="hidden md:block">
                 <div className="flex justify-center items-center h-screen mx-28">
                     <ReactVisibilitySensor>
                         <Fade direction="left">
@@ -64,6 +64,45 @@ export default function Services(){
                     </ReactVisibilitySensor>
                 </div>
             </div>
+            <div className="lg:hidden">
+                <div className="flex flex-col justify-center items-center h-screen mx-28">
+                    <ReactVisibilitySensor>
+                        <Fade direction="up">
+                            <div className="bg-blue-600 text-lg text-white w-60 h-56 rounded-xl flex flex-col items-center transition-all duration-700 ease-in-out transform hover:bg-yellow-950 hover:w-80 hover:h-72">
+                                <FaLaptopCode className="text-6xl"/>
+                                <h1 className="text-xl font-semibold">Web development</h1>
+                                <p>Experienced Web Developers Delivering Innovative Solutions</p>
+
+                            </div>
+                            
+                        </Fade>
+                    </ReactVisibilitySensor>
+                    <ReactVisibilitySensor>
+                        <Fade direction="up">
+                            <div className="bg-blue-600 text-lg text-white w-60 h-56 rounded-xl flex flex-col items-center transition-all duration-700 ease-in-out transform hover:bg-yellow-950 hover:w-80 hover:h-72">
+                                <MdOutlineDataThresholding className="text-6xl"/>
+                                <h1 className="text-xl font-semibold">DataBase Analysis</h1>
+                                <p>Transforming Raw Data into Strategic Insight</p>
+
+                            </div>
+                            
+                        </Fade>
+                    </ReactVisibilitySensor>
+                    <ReactVisibilitySensor>
+                        <Fade direction="up">
+                            <div className="bg-blue-600 text-lg text-white w-60 h-56 rounded-xl flex flex-col items-center transition-all duration-700 ease-in-out transform hover:bg-yellow-950 hover:w-80 hover:h-72">
+                                <FaBuildingLock className="text-6xl"/>
+                                <h1 className="text-xl font-semibold">Server Security</h1>
+                                <p>Implement essential HTTP security headers to protect against common attacks.</p>
+
+                            </div>
+                            
+                        </Fade>
+                    </ReactVisibilitySensor>
+                    
+                </div>
+            </div>
+
 
         </div>
     )
