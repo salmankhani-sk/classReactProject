@@ -12,7 +12,7 @@ export default function Services(){
             <div className="flex justify-center items-center h-screen">
                 <ReactVisibilitySensor>
                     <Fade direction="up">
-                        <h1 className="text-5xl  font-extrabold">Our Exlusive <span className="text-blue-500">ITSolution</span><br/> Services</h1>
+                        <h1 className="text-5xl  font-extrabold hidden md:block">Our Exlusive <span className="text-blue-500">ITSolution</span><br/> Services</h1>
                     </Fade>
                 </ReactVisibilitySensor>
             </div>
@@ -65,10 +65,10 @@ export default function Services(){
                 </div>
             </div>
             <div className="lg:hidden">
-                <div className="flex flex-col justify-center items-center h-screen mx-28">
+                <div className="flex flex-col justify-center items-center h-screen mx-14">
                     <ReactVisibilitySensor>
                         <Fade direction="up">
-                            <div className="bg-blue-600 text-lg text-white w-60 h-56 rounded-xl flex flex-col items-center transition-all duration-700 ease-in-out transform hover:bg-yellow-950 hover:w-80 hover:h-72">
+                            <div className="bg-blue-600 text-lg text-white w-44 h-44 rounded-xl flex flex-col items-center ">
                                 <FaLaptopCode className="text-6xl"/>
                                 <h1 className="text-xl font-semibold">Web development</h1>
                                 <p>Experienced Web Developers Delivering Innovative Solutions</p>
@@ -79,7 +79,7 @@ export default function Services(){
                     </ReactVisibilitySensor>
                     <ReactVisibilitySensor>
                         <Fade direction="up">
-                            <div className="bg-blue-600 text-lg text-white w-60 h-56 rounded-xl flex flex-col items-center transition-all duration-700 ease-in-out transform hover:bg-yellow-950 hover:w-80 hover:h-72">
+                            <div className="bg-blue-600 text-lg text-white w-44 h-44 rounded-xl flex flex-col items-center ">
                                 <MdOutlineDataThresholding className="text-6xl"/>
                                 <h1 className="text-xl font-semibold">DataBase Analysis</h1>
                                 <p>Transforming Raw Data into Strategic Insight</p>
@@ -90,7 +90,7 @@ export default function Services(){
                     </ReactVisibilitySensor>
                     <ReactVisibilitySensor>
                         <Fade direction="up">
-                            <div className="bg-blue-600 text-lg text-white w-60 h-56 rounded-xl flex flex-col items-center transition-all duration-700 ease-in-out transform hover:bg-yellow-950 hover:w-80 hover:h-72">
+                            <div className="bg-blue-600 text-lg text-white w-44 h-44 rounded-xl flex flex-col items-center ">
                                 <FaBuildingLock className="text-6xl"/>
                                 <h1 className="text-xl font-semibold">Server Security</h1>
                                 <p>Implement essential HTTP security headers to protect against common attacks.</p>

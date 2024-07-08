@@ -11,14 +11,14 @@ export default function About(){
     return(
         <div>
             <div className="flex flex-col items-center justify-center min-h-screen ">
-                <section className="animate-pulse animate__fadeInUp transform transition duration-600 ease-in-out">
+                <section className="animate-pulse  transform transition duration-600 ease-in-out">
                     <div className="flex flex-col items-center">
                         <div>
                         <ReactVisibilitySensor>
                             <Fade direction="up">
                                 <div>
-                                    <h2 className="text-2xl md:text-4xl font-bold text-gray-900">More than <span className="text-blue-500">35+</span> Years we<br/> provide<span className="text-blue-500"> ITSolution</span></h2>
-                                    <p className="mt-4">Far far away,behind the word mountains,far from the countries<br/> Vokalia and Consonantia</p>
+                                    <h2 className="text-2xl md:text-4xl font-bold text-gray-900">More than <span className="text-blue-500">2+</span> Years we<br/> provide<span className="text-blue-500"> ITSolution</span></h2>
+                                    <p className="mt-4">Empowering businesses with innovative IT solutions that<br/> transcend borders and drive successEmpowering businesses<br/> with innovative IT solutions that transcend borders and drive success</p>
                                 </div>
 
                             </Fade>
@@ -36,7 +36,7 @@ export default function About(){
                             <div className="mx-20">
                                 <LiaLaptopCodeSolid style={{fontSize:'10rem'}}/>
                                 <h2 className="text-2xl">Web Development</h2>
-                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                <p className="mt-2 text-gray-600 font-normal">Our expert team crafts robust and user-friendly websites, ensuring seamless functionality and captivating design. From front-end aesthetics to back-end functionality, we deliver tailored solutions that drive business growth.</p>
                             </div>
                             <div >
                                 <Mysvg style={{width:'400px',height:'400px'}}/>
@@ -44,7 +44,7 @@ export default function About(){
                             <div className="mx-20">
                                 <FaBuildingShield style={{fontSize:'8rem'}}/>
                                 <h2 className="text-2xl">Server Security</h2>
-                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                <p className="mt-2 text-gray-600 font-normal">Our robust server security solutions stand as an impenetrable fortress, safeguarding your digital assets against threats from distant lands</p>
                             </div>
                         </section>
 
@@ -53,12 +53,12 @@ export default function About(){
             </div>
             <div className="lg:hidden">
                 <ReactVisibilitySensor>
-                    <Fade direction="up">
+                    <Fade direction="">
                         <section className="flex flex-col items-center justify-center">
                             <div className="mx-20">
                                 <LiaLaptopCodeSolid style={{fontSize:'10rem'}}/>
                                 <h2 className="text-2xl">Web Development</h2>
-                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                <p className="mt-2 text-gray-600 font-normal">Our expert team crafts robust and user-friendly websites, ensuring seamless functionality and captivating design.</p>
                             </div>
                             <div >
                                 <Mysvg style={{width:'400px',height:'400px'}}/>
@@ -66,7 +66,7 @@ export default function About(){
                             <div className="mx-20">
                                 <FaBuildingShield style={{fontSize:'8rem'}}/>
                                 <h2 className="text-2xl">Server Security</h2>
-                                <p className="mt-2 text-gray-600 font-normal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                <p className="mt-2 text-gray-600 font-normal">Our robust server security solutions stand as an impenetrable fortress, safeguarding your digital assets against threats from distant lands</p>
                             </div>
                         </section>
 
@@ -80,7 +80,7 @@ export default function About(){
                                 <div className="mt-16 mx-14">
                                     
                                     <h1 className="font-bold text-4xl text-white">Consult us here in <br/> <span className="text-yellow-500">IT Solution</span></h1>
-                                    <p className="text-white mt-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                    <p className="text-white mt-4">Guiding businesses toward success, our expert consultants bridge the gap between distant challenges and practical solutions.</p>
                                     
                                 </div>
                                 <div className="flex flex-wrap">
@@ -136,7 +136,7 @@ export default function About(){
                                 <div className="mt-16 mx-14">
                                     
                                     <h1 className="font-bold text-4xl text-white">Consult us here in <br/> <span className="text-yellow-500">IT Solution</span></h1>
-                                    <p className="text-white mt-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                    <p className="text-white mt-4">Guiding businesses toward success, our expert consultants bridge the gap between distant challenges and practical solutions.</p>
                                     
                                 </div>
                                 <div className="flex flex-wrap">

@@ -5,6 +5,8 @@ import { MdElectricBolt } from "react-icons/md";
 import { TbBulbFilled } from "react-icons/tb";
 import { FaRedhat } from "react-icons/fa6";
 import About from "./about"
+import Contactus from "./contactus";
+import Services from "./services";
 function Home(){
     return(
         <div>
@@ -14,7 +16,7 @@ function Home(){
                         <div className="col-span-8 mt-5 pt-5" data-scrollax="properties:{traslateY:'75%'}">
                             <div className="flex flex-col px-10">
                                 <div className="col-span-7 ">
-                                    <p className="mb-4 pl-5 font-bold text-xl">A small river named Duden flows by their place and supplies</p>
+                                    <p className="mb-4 pl-5 font-bold text-xl">Our cutting-edge software solutions empower businesses globally, delivering excellence through innovation and reliability</p>
                                 </div>
                                 <div className="pl-5 mb-4">
                                     <h1 className="mb-4 font-extrabold text-5xl ">Experienced for Every kinds of ITSolution</h1>
@@ -76,6 +78,9 @@ function Home(){
                         </section>
                         
                         <About/>
+                        <Services/>
+
+                        <Contactus/>
                        
         </div>
     )
