@@ -14,7 +14,7 @@ function Navbar() {
         <nav className='flex flex-wrap items-center justify-between p-6 mr-20 ml-20 mt-8 sticky top-0 z-50 bg-white'>
             <div className='flex items-center text-black font-bold text-4xl hover:cursor-pointer'>
                 <div className='text-blue-800 font-bold hover:text-yellow-600'>
-                    <Link to='/'>IT</Link>
+                    <Link to='/'>Seka</Link>
                 </div>
                 <div>Solution</div>
             </div>

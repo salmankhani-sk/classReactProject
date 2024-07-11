@@ -7,6 +7,7 @@ import { FaRedhat } from "react-icons/fa6";
 import About from "./about"
 import Contactus from "./contactus";
 import Services from "./services";
+import Footer from "./footer";
 function Home(){
     return(
         <div>
@@ -81,6 +82,7 @@ function Home(){
                         <Services/>
 
                         <Contactus/>
+                        <Footer/>
                        
         </div>
     )

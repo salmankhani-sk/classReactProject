@@ -79,7 +79,7 @@ export default function About(){
                             <div className="bg-cover bg-center h-[500px] w-[500px] bg-blue-700">
                                 <div className="mt-16 mx-14">
                                     
-                                    <h1 className="font-bold text-4xl text-white">Consult us here in <br/> <span className="text-yellow-500">IT Solution</span></h1>
+                                    <h1 className="font-bold text-4xl text-white">Consult us here in <br/> <span className="text-yellow-500">Seka Solution</span></h1>
                                     <p className="text-white mt-4">Guiding businesses toward success, our expert consultants bridge the gap between distant challenges and practical solutions.</p>
                                     
                                 </div>
@@ -88,7 +88,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 750 : 0} />
+                                                <CountUp end={isVisible ? 47 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
@@ -98,7 +98,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 589 : 0} />
+                                                <CountUp end={isVisible ? 21 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
@@ -108,7 +108,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 478 : 0} />
+                                                <CountUp end={isVisible ? 11 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
@@ -118,7 +118,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 780 : 0} />
+                                                <CountUp end={isVisible ? 17 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
@@ -135,7 +135,7 @@ export default function About(){
                             <div className="bg-cover bg-center h-[500px] w-[500px] bg-blue-700">
                                 <div className="mt-16 mx-14">
                                     
-                                    <h1 className="font-bold text-4xl text-white">Consult us here in <br/> <span className="text-yellow-500">IT Solution</span></h1>
+                                    <h1 className="font-bold text-4xl text-white">Consult us here in <br/> <span className="text-yellow-500">Seka Solution</span></h1>
                                     <p className="text-white mt-4">Guiding businesses toward success, our expert consultants bridge the gap between distant challenges and practical solutions.</p>
                                     
                                 </div>
@@ -144,7 +144,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 750 : 0} />
+                                                <CountUp end={isVisible ? 47 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
@@ -154,7 +154,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 589 : 0} />
+                                                <CountUp end={isVisible ? 21 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
@@ -164,7 +164,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 478 : 0} />
+                                                <CountUp end={isVisible ? 11 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
@@ -174,7 +174,7 @@ export default function About(){
                                         <h2 className="text-white font-bold text-3xl mx-14">
                                         <ReactVisibilitySensor>
                                             {({isVisible})=>(
-                                                <CountUp end={isVisible ? 780 : 0} />
+                                                <CountUp end={isVisible ? 17 : 0} />
                                             )}
                                         </ReactVisibilitySensor>
                                         </h2>
